@@ -1,0 +1,23 @@
+[user]
+    name = Paul Bae
+    email = pbae@utexas.edu
+[core]
+    editor = vim
+    autocrlf = input
+[color]
+    ui = true
+[push]
+    default = simple
+[alias]
+    m = merge
+    b = branch
+    co = checkout
+    ci = commit
+    pu = push
+    pl = pull
+    aa = add -A
+    a = add
+    d = diff
+    cl = clone
+    l = log
+    s = status
