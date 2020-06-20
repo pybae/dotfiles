@@ -40,10 +40,12 @@ Xcursor.size: 11
 *color15:	#6C887A
 
 ! extensions
-URxvt.perl-ext-common:      default
-!,clipboard,url-select,keyboard-select
+URxvt.perl-ext-common:      default,clipboard,url-select,keyboard-select,eval
 URxvt.url-select.launcher:  google-chrome-stable
 URxvt.url-select.underline: true
+URxvt.clipboard.autocopy: 	true
+URxvt.keysym.M-c: 					perl:clipboard:copy
+URxvt.keysym.M-v: 					perl:clipboard:paste
 URxvt.keysym.M-u:           perl:url-select:select_next
-URxvt.keysym.M-Escape:      perl:keyboard-select:activate
-URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
