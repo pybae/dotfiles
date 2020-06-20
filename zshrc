@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="evan"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(rails rake colored-man colorize)
+plugins=(rails rake colorize)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -18,3 +18,13 @@ fi
 if [[ -f ~/.paths ]]; then
     source ~/.paths
 fi
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+if [ -f "/home/pyb/anaconda3/etc/profile.d/conda.sh" ]; then
+    . "/home/pyb/anaconda3/etc/profile.d/conda.sh"
+else
+    export PATH="/home/pyb/anaconda3/bin:$PATH"
+fi
+# <<< conda initialize <<<

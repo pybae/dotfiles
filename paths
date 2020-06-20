@@ -19,5 +19,5 @@ export PATH=$PATH:/Library/TeX/Distributions/Programs/texbin
 
 export WORKON_HOME="$HOME/envs"
 
-eval "$(pyenv init -)"
-eval "$(rbenv init -)"
+#eval "$(pyenv init -)"
+#eval "$(rbenv init -)"
