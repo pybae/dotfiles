@@ -32,7 +32,6 @@
         Bundle 'Raimondi/delimitMate'
         Bundle 'godlygeek/tabular'
         Bundle 'kien/ctrlp.vim'
-        Bundle 'garbas/vim-snipmate'
         Bundle 'honza/vim-snippets'
         Bundle 'ervandew/supertab'
         Bundle 'terryma/vim-multiple-cursors' 
