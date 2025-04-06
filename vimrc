@@ -56,7 +56,6 @@ set splitbelow                      "opens splits below
 set splitright                      "opens splits to the right by default
 set pastetoggle=<F2>                "retains proper indentation when posting from the OS's clipboard
 set hidden                          "buffers never disappear, but rather stay hidden
-set textwidth=80                    "wrap at 80 characters
 "}}}
 
 "Filetype Specific Settings {{{
