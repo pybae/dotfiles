@@ -42,3 +42,6 @@ alias sp='nc --port 6700'
 alias va='vim ~/.aliases'
 alias sa='source ~/.aliases'
 
+compress_video() {
+  ffmpeg -i "$1" -an -vcodec libx264 -crf 28 -preset fast "${1%.*}-compressed.mp4"
+}
