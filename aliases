@@ -1,47 +1,5 @@
-alias mount='mount |column -t'
-
 alias sl='ls'
-alias tmux='tmux -2'
-
 alias x='exit'
-alias c='make'
-alias v='vim'
-alias e='emacsclient -c'
+alias v='nvim'
+alias vim='nvim'
 alias g='git'
-alias t='tree'
-
-# Language specific bindings
-
-# Ruby
-alias rb='ruby'
-
-# Python
-alias py='python'
-alias py2='python2'
-alias py3='python3'
-alias bpy='bpython'
-alias cov='coverage'
-alias ipy='ipython'
-alias pf='pip freeze > requirements.txt'
-
-# virtualenv
-alias ve='virtualenv'
-alias vew='virtualenvwrapper'
-alias ven='mkvirtualenv'
-alias vep='mkproject'
-alias vec='workon'
-alias ver='rmvirtualenv'
-
-# Arch Linux
-alias ssh='ssh -C'
-
-alias rt='rtorrent'
-
-alias sx='sleep 1; xset dpms force off'
-alias sp='nc --port 6700'
-alias va='vim ~/.aliases'
-alias sa='source ~/.aliases'
-
-compress_video() {
-  ffmpeg -i "$1" -an -vcodec libx264 -crf 28 -preset fast "${1%.*}-compressed.mp4"
-}

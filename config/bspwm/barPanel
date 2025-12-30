@@ -1,3 +1,0 @@
-#!/bin/sh
-
-bash ~/.config/bspwm/barScript.sh | bar -p -g 2000x15 -B "#FFf0ebcd" -F "#FF666666" -f "-*-tewi-medium-*-*-*-11-*-*-*-*-*-*-*"  | sh &

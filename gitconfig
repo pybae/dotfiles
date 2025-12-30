@@ -1,6 +1,6 @@
 [user]
-    name = Paul Bae
-    email = pbae@utexas.edu
+    name = baepaul
+    email = paul@gitdot.io
 [core]
     editor = vim
     autocrlf = input
@@ -21,8 +21,3 @@
     cl = clone
     l = log
     s = status
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
