@@ -28,3 +28,5 @@ if [ -f '/Users/pybae/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/pybae/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/pybae/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/pybae/google-cloud-sdk/completion.zsh.inc'; fi
+source <(fzf --zsh)
+

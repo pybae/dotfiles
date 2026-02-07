@@ -4,10 +4,13 @@
 [core]
     editor = nvim
     autocrlf = input
+    pager = delta
 [color]
     ui = true
 [push]
-    default = simple
+  default = simple
+[diff]
+    external = difft
 [alias]
     m = merge
     b = branch
